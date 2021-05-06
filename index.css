@@ -1,0 +1,106 @@
+  header {
+      display: flex;
+      justify-content: space-evenly;
+      border: black solid 1px;
+  }
+
+  header h1 {
+      display: flex;
+      justify-content: space-evenly;
+      border: black solid 1px;
+      text-align: center;
+      padding: 1px;
+  }
+
+  nav {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: stretch;
+      border: black solid 1px;
+      list-style-type: none;
+  }
+
+  nav ul {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: space-between;
+      text-align: center;
+      padding: 10px;
+  }
+
+  nav li {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 10px;
+  }
+
+  article {
+      display: flex;
+      border: black solid 1px;
+      flex-direction: column;
+  }
+
+  section {
+      display: flex;
+      border: black solid 1px;
+  }
+
+  aside {
+      display: flex;
+      border: black solid 1px;
+      text-align: center;
+      align-items: center;
+  }
+
+  div {
+      display: flex;
+      border: black solid 1px;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: stretch;
+      justify-content: center;
+      align-items: inherit;
+      padding: 5px;
+      text-align: center;
+  }
+
+  footer {
+      display: flex;
+      border: black solid 1px;
+      padding: 5px;
+      text-align: center;
+  }
+
+  #div2 {
+      display: flex;
+      border: black solid 1px;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: stretch;
+      justify-content: center;
+      align-items: inherit;
+      padding: 5px;
+      text-align: center;
+  }
+
+  #imprimir {
+      display: flex;
+      border: black solid 1px;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: stretch;
+      justify-content: center;
+      align-items: inherit;
+      padding: 5px;
+      text-align: center;
+  }
+
+  /*  #div2 {
+      display: flex;
+      border: black solid 1px;
+      padding: 5px;
+      margin: 10px;
+  } */
