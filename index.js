@@ -4,9 +4,9 @@ let imprimir = ""
 fetch("https://api.spacexdata.com/v4/rockets").then(function respuesta(respuesta) {
 	return respuesta.json()
 }).then(function datos(datos) {
-
 	for (let i = 0; i < datos.length; i++) {
-		parrafo += `<option value="${datos[i].name}">${datos[i].name}</option>`
+		parrafo += `
+		<option value="${datos[i].name}">${datos[i].name}</option>`
 
 	}
 	document.getElementById("naves").innerHTML = parrafo
@@ -34,4 +34,9 @@ function buscanaves() {
 
 		}
 	})
+}
+
+function llamarnave() {
+	let nave2 = JSON.parse(localStorage.getItem("guardado"));
+	document.getElementById("div3").innerHTML = nave2
 }
